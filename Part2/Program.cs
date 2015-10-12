@@ -26,10 +26,9 @@ namespace Part2
             string prompt;
             double gradePointAverage = 0.0d;
             int testScore = 0;
-            
 
-
-            while (menuSelection != 2)
+            // Give menu selection and user enters GPA, Test score
+            while ( menuSelection != 2)
             {
                 Console.WriteLine("++++Admissions App++++");
                 Console.WriteLine("1. Enter GPA & Test Score");
@@ -39,7 +38,7 @@ namespace Part2
                 prompt = Console.ReadLine();
                 menuSelection = Convert.ToInt32(prompt);
 
-                // Give menu selection and user enters GPA, Test score
+                
                 switch ( menuSelection )
                 {
                     case 1:
