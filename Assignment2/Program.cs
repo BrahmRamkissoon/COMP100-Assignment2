@@ -19,8 +19,36 @@ namespace Assignment2
 {
     class Program
     {
+        
         static void Main ( string [] args )
         {
+
+            string message;
+            bool appContinue = true;
+
+            Console.WriteLine("++++MsgMe Service++++");
+            Console.WriteLine("Please enter your message: ");
+            message = Console.ReadLine();
+            while ( appContinue )
+            {
+                if ( message.Length <= 140 )
+                {
+                    Console.WriteLine("Message accepted!");
+                    appContinue = false;
+                    PressKey();
+                }
+                else
+                {
+                    Console.WriteLine("Message must be less than or equal to 140 Chars in length");
+                    Console.WriteLine("Please try again...");
+                }
+            }
+        }
+
+        private static void PressKey ()
+        {
+            Console.WriteLine("\n Press a Key to continue...");
+            Console.Read();
         }
     }
 }
