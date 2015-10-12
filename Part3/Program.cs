@@ -1,7 +1,15 @@
 ﻿// Filename: Program.cs
 // Author: Brahm Ramkissoon
 // Created Date  (dd/mm/yyyy): 12/10/2015
-// Description:
+// Description: Assignment 2 Part 3
+/* Write a console-based program that prompts the user for an hourly pay rate and hours wroked.
+** Compute gross pay ( hours times pay rate), withholding tax, and net pay ( gross pay minus
+** withholding tax). Withholding tax is computed as a percentage of gross pay based on the following
+**              Gross Pay                       Withholding Percentage
+**              Up to and including 300.00      10%
+**              More than 300.00                12%
+** (7 Marks: Functionality)
+*/
 using System;
 using System.Collections.Generic;
 using System.Linq;

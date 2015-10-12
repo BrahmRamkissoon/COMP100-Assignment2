@@ -1,7 +1,7 @@
 ﻿// Filename: Program.cs
 // Author: Brahm Ramkissoon
 // Created Date  (dd/mm/yyyy): 12/10/2015
-// Description:
+// Description: Assignment 2 Part 2
 /* Write a console based program for a college's admissions office. The user enters a numeric high
 ** school grade point average ( for example, 3.2) and an admission test score. Display the message
 ** "Accept" if the student meets either of the following requirements
